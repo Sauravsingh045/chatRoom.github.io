@@ -1,38 +1,81 @@
-.App {
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 25px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 26%;
+  height: 1cm;
+  background-color: #F2E3DB;
+}
+.me .chatbox{
+  background-color: #F3E99F;
+  width: 26%;
+  height: 1cm;
+  border-radius: 20px;
+}
+
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+  position: fixed;
+  width: 100%;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.btm input{
+  padding: 5px 0;
+flex-grow: 1;
+font-size: 19px;
+background-color: #FDF4F5;
+width: 75%;
+margin-left: 0%;
+border-radius: 10px;
+}
+.btm button{
+  width: 14%;
+  padding: 2px;
+  text-align: center;
+  margin-right: 2%;
+  border-radius: 15px;
+  border: #f4f674;
+  background-color: #D14D72;
+}
+
+.chat-container{
+  height: 70vh;
+  overflow-y:scroll;
+  border: 1px solid black;
+}
+.google {
+  margin-left: -4%;
+  border-radius: 50%;
+opacity: 90%;}
+
+
+
+h1 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.google-sign-in{
+  
+  
+  margin-top: 3%;
+  background-color: #ACB1D6;
+  text-align: center;
+  border-radius: 41px;
+  margin-left: 27%;
+  font-size: 23%;
+width: 36%;
+height: 43%;
+padding: 5%;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.google-sign-in:hover{
+  background: linear-gradient(to right,#f4f674 0%, #98e3fe 100%) ;
 }
