@@ -1,0 +1,3 @@
+<img className='google'
+      src="https://play-lh.googleusercontent.com/6UgEjh8Xuts4nwdWzTnWH8QtLuHqRMUB7dp24JYVE2xcYzq4HA8hFfcAbU-R-PC_9uA1"
+      alt="google" style={{width:'3cm',height:'3cm',padding:'2px'}}/>
